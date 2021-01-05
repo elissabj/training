@@ -1,32 +1,29 @@
+//https://codeforces.com/contest/43/problem/A
 #include<bits/stdc++.h>
 using namespace std;
 
 int main(){
+    
+    int num;
+    cin >> num;
+    map <string, int> mapa;
+    
+    
+    for(int i = 0; i < num; i++){
+        string aux; cin >> aux;   
+        mapa[aux]++;
+    }
 
-    string players;
-    cin >> players;
-
-    bool flag = false;
-    int cont_zero = 0, cont_one = 0;
-
-    for(int i = 0; i <= players.size(); i++){
-        if((cont_one >= 7) || (cont_zero) >= 7){
-            flag = true; break;
-        } 
-        if(players[i] == '0'){
-            cont_zero++;
-            cont_one = 0;
-        }else{
-            cont_one++;
-            cont_zero = 0;
+    string res;
+    int aux = -1;
+    
+    for(auto x:mapa){
+        if(x.second > aux){
+            res = x.first;
+            aux = x.second;
         }
     }
 
-    if(flag){
-        cout << "YES\n";
-    }else{
-        cout <<"NO\n";
-    }
-
+    cout << res << endl;
 return 0;
 }
