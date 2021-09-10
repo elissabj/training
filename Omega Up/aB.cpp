@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/A--B#problems
+/*https://omegaup.com/arena/problem/A--B#problems*/
 #include<bits/stdc++.h>
 using namespace std;
 
