@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/DesEdificios/#problems
+/*https://omegaup.com/arena/problem/DesEdificios/#problems*/
 #include<bits/stdc++.h>
 using namespace std;
 #define __ ios_base::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL);
