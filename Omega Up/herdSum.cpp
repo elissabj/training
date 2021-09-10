@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/herdsums#problems
+/*https://omegaup.com/arena/problem/herdsums#problems*/
 #include<bits/stdc++.h>
 using namespace std;
 
