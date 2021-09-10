@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/Suma-Acarreada/#problems
+/*https://omegaup.com/arena/problem/Suma-Acarreada/#problems*/
 #include<bits/stdc++.h>
 using namespace std;
 
