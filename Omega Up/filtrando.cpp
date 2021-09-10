@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/Filtrando-multiplos/
+/*https://omegaup.com/arena/problem/Filtrando-multiplos/*/
 #include<bits/stdc++.h>
 using namespace std;
 
