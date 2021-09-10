@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/Producto-punto-de-dos-vectores/
+/*https://omegaup.com/arena/problem/Producto-punto-de-dos-vectores/*/
 #include<bits/stdc++.h>
 using namespace std;
 
