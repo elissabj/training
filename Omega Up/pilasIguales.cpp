@@ -1,4 +1,4 @@
-//https://omegaup.com/arena/problem/Pilas-iguales#problems
+/*https://omegaup.com/arena/problem/Pilas-iguales#problems*/
 #include<bits/stdc++.h>
 using namespace std;
 
